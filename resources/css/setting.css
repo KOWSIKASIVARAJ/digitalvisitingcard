@@ -1,0 +1,218 @@
+.settings-parent {
+    background-color: #fffdfc;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 28px;
+    color: #171717;
+    font-family: Lato;
+}
+.settings {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: Lato;
+    color: #171717;
+    text-align: left;
+}
+.outline-users-user-rounded-parent {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* width: 100%; */
+    overflow: hidden;
+    text-align: left;
+    font-size: 22px;
+    color: #212020;
+    font-family: Lato;
+}
+@media (max-width: 600px) {
+    .outline-users-user-rounded-parent {
+        margin-left: 57px;
+    }
+}
+.profile {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Lato;
+    color: black;
+    text-align: left;
+}
+.subscription-parent {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.22);
+    /* overflow: hidden; */
+    text-align: left;
+    font-size: 22px;
+    color: #2e2e2e;
+    font-family: Lato;
+}
+.instance-parent {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 8px 14px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    text-align: left;
+    font-size: 22px;
+    color: #2e2e2e;
+    font-family: Lato;
+}
+.overlay_flight_traveldil {
+    transition: opacity 500ms;
+    visibility: hidden;
+    /* opacity: 0; */
+}
+.overlay_flight_traveldil:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup_flight_travlDil {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+
+    transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+    max-height: 30%;
+    overflow: auto;
+}
+a.button.profile {
+    text-decoration: none;
+    background-color: white;
+}
+a.close_flight_travelDl {
+    color: #0d0e0e;
+    text-decoration: none;
+    margin-left: 95%;
+}
+a.close_flight_travelDl:hover {
+    text-decoration: none;
+    color: #0d0e0e;
+}
+.subscription {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: Lato;
+    color: #2e2e2e;
+    text-align: left;
+}
+.parent {
+    border-radius: 48px;
+    border: 0.7px solid #9d6f4e;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 9px;
+    gap: 7px;
+    text-align: left;
+    font-size: 18px;
+    color: #9d6f4e;
+    font-family: Lato;
+}
+.plus {
+    line-height: 18px;
+    font-weight: 500;
+}
+.upgrade-plan {
+    font-size: 14px;
+    line-height: 18px;
+}
+.search-soft-free {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #383838;
+    text-align: left;
+}
+.praveen-kumar {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #383838;
+    text-align: left;
+}
+.free-user {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    font-family: Lato;
+    color: #797979;
+    text-align: left;
+}
+.rectangle-div {
+    border-radius: 48px;
+    border: 0.7px solid #595959;
+    box-sizing: border-box;
+    /* width: 100%; */
+    height: 28.7px;
+}
+.edit {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Lato;
+    color: #595959;
+    text-align: left;
+}
+.praveen32gmailcom {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Lato;
+    color: #4b4b4b;
+    text-align: left;
+}
+.change-your-email {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #313131;
+    text-align: left;
+}
+.resend-verification-email {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #313131;
+    text-align: left;
+}
+.export-contacts {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #313131;
+    text-align: left;
+}
+.syncing-will-allow {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Lato;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    width: 356px;
+}
+.rectangle-div3 {
+    border-radius: 4px;
+    background-color: #e8e7e7;
+    width: 100%;
+    height: 34px;
+}
+@media (max-width: 600px) {
+    .subscription-parent {
+        margin-left: 65px;
+    }
+}

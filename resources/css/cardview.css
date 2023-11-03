@@ -1,0 +1,10 @@
+#welcome {
+    background-image: url(img/Group\ 589.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wel-4 {
+    border-radius: 10px;
+    background: #9d6f4e;
+    color: white;
+}
